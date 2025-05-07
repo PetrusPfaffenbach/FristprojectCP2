@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    
+}
+.menu {
+    display: none; 
+}
+
+.line {
+    display: none;
+}
+.gbuttonmob {
+    display: none;
+}
+
+.arquivoimg {
+    width: 798.78px;
+}
+
+.mobiletext {
+    display: none;
+}
+
+header {
+    width: 908px;
+    margin: auto;
+    margin-top: 56px;
+    display: flex;
+    flex-direction: row;
+    border: 1px;
+}
+.menuburger {
+    display: none;
+}
+.menu {
+    width: 431px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.top {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+    padding: 14px;
+    background-color: transparent;
+    border: 0px;
+}
+.odd {
+    margin: auto;
+    width: 28px;
+
+}
+.greenbutton {
+    margin: auto;
+}
+
+.borderbutton {
+    width: 172px;
+    font-family: "Manrope", sans-serif;
+    margin: auto;
+    font-size: 11px;
+    font-optical-sizing: bold;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    color: white;
+    background-color: transparent;
+    border-color: #BEF264;
+    border-radius: 6px;
+    gap: 10px;
+}
+.coffeimg {
+    margin: auto;
+    width: 100%;
+    max-width: 789px;
+}
+.maintext{
+    width: 100%;
+    margin-top: 140px;
+}
+.coffeimg_inside {
+    width: 100%;
+    max-width: 798px;
+}
+.maintext-inside {
+    width: 548px;
+    margin: auto;
+    text-align: center;
+    font-size: 32px;
+}
+
+.sttext {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+}
+.ndtext {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke: 1px #BEF264;
+    letter-spacing: -3%;
+}
+
+.supblur {
+    width: 312px;
+    height: 312px;
+    position: fixed;
+    top: -63px;
+    right: -63px;
+    background-color: #BEF264;
+    z-index: -1px;
+    border-radius: 100%;
+    filter: blur(200px);
+}
+.infblur {
+    width: 312px;
+    height: 312px;
+    position: fixed;
+    bottom: -63px;
+    left: -63px;
+    background-color: #BEF264;
+    z-index: -1;
+    border-radius: 100%;
+    filter: blur(200px);
+}
+@media (max-width: 900px)
+{
+    .mobiletext {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        margin-top: 184px;
+    }
+    .mobiletext_inside {
+        color: white;
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 38px;
+        width: 100%;
+        max-width: 373px;
+        margin-left: 28px;
+        text-align: center;
+
+    }
+    .supblur {
+        display: none;
+    }
+
+    .infblur {
+        width: 321px;
+        position: fixed;
+        bottom: -63px;
+        left: 68px;
+        background-color: #BEF264;
+        z-index: -1;
+        border-radius: 100%;
+        filter: blur(200px);
+    }
+    
+    .arquivoimg {
+        width: 428px;
+    }
+    
+    .gbuttonmob {
+        display: block;
+        margin-top: 88px;
+        margin-left: 127px;
+    }
+    .greenbutton {
+        display: none;
+    }
+
+    .borderbotmob {
+        width: 172px;
+        font-family: "Manrope", sans-serif;
+        font-size: 11px;
+        font-optical-sizing: bold;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        background-color: transparent;
+        border-color: #BEF264;
+        border-radius: 6px;
+        gap: 10px; 
+    }
+    
+    
+    header {
+        width: 100%;
+        max-width: 433px;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        margin-top: 39px;
+    }
+    .line {
+        display: flex;
+        width: 433px;
+        padding-left: -3px;
+        margin: auto;
+        background-color: rgba(41, 41, 46, 1);
+        height: 1px;
+        color: transparent;
+    }
+    .menuburger {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        max-width: 24px;
+        margin: auto;
+        margin-left: 280px;
+    }
+    .bottburger {
+        background-color: transparent;
+        border: transparent;
+    }
+    
+    .menu {
+        display: none;
+    }
+    .odd {
+        margin: auto;
+        width: 28px;
+        margin-left: 28px;
+        margin: auto;
+
+    }
+
+    .coffeimg {
+        width: 428px;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .coffeimg_inside {
+        width: 100%;
+        max-width: 428px;
+    }
+
+    .maintext{
+        width: 346px;
+        margin-left: 42px;
+        margin: auto;
+        margin-top: 98px;
+    }
+
+    .maintext-inside {
+        width: 346px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .menu {
+        background-color: black;
+        width: 100%;
+        max-width: 428px;
+        height: 100%;
+        max-height: 926px;
+    }
+}
+
