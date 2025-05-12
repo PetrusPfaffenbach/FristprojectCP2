@@ -7,8 +7,11 @@ body{
     background-color: black;
     
 }
-.menu {
-    display: none; 
+.mobilemenu {
+    display: none;
+}
+.xizinho {
+    display: none;
 }
 
 .line {
@@ -229,6 +232,7 @@ header {
     .menu {
         display: none;
     }
+
     .odd {
         margin: auto;
         width: 28px;
@@ -260,12 +264,15 @@ header {
         font-size: 24px;
     }
 
-    .menu {
+    .menumobile {
+        display: none;
         background-color: black;
         width: 100%;
-        max-width: 428px;
-        height: 100%;
-        max-height: 926px;
+        margin-top: 0px;
+    }
+    .bottburger {
+        width: 24px;
+        height: 8px;
     }
 }
 

@@ -1,12 +1,14 @@
-let menu = document.querySelector(".menu");
+let menumobile = document.querySelector(".menumobile");
 let xizinho = document.querySelector(".xizinho");
 
 async function abrirmenu() {
-    menu.style.display = "block";
+    menumobile.style.display = "flex";
     xizinho.style.display = "block";
+    console.log("funfando");
 }
 
 function fecharmenu() {
-    menu.style.display = "none";
+    menumobile.style.display = "none";
     xizinho.style.display = "none";
+    console.log("funfando");
 }
